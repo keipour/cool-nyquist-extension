@@ -16,11 +16,12 @@
 ;;
 ;; Dependencies: {}
 
-load "./piano-player.sal"
-load "./pluck-player.sal"
+load "cool-nyquist-extension/piano-player.sal"
+load "cool-nyquist-extension/pluck-player.sal"
 
 function play-piano-c4()
   exec play-piano(c4);
 
 function play-pluck-c4()
   exec play-pluck(c4);
+
